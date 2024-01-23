@@ -50,5 +50,18 @@ a:hover {
 }
 
 h1 {
-	font-size: 5rem;
+	font-size: 4rem;
 }
+p, a {
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    p, a {
+        font-size: 1rem; 
+    }
+    h1 {
+	font-size: 2rem;
+    }
+}
+
